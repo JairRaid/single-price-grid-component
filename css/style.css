@@ -57,6 +57,8 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  background: var(--teal-100);
+  padding-inline: 2rem;
 }
 
 /* Media */
@@ -125,11 +127,6 @@ button {
 
 /* Base styles */
 
-body {
-  background: var(--teal-100);
-  padding-inline: 2rem;
-}
-
 h1 {
   font-weight: var(--fw-bold);
   font-size: var(--fs-24);
@@ -188,7 +185,7 @@ h2 {
 
 .pricing-card__subscription {
   padding-block: 1.5rem;
-  padding-inline: 40px;
+  padding-inline: 2.5rem;
   background: var(--teal-500);
 }
 
@@ -226,7 +223,7 @@ h2 {
   border-radius: 0.3125rem;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
+  font-weight: var(--fw-bold);
   line-height: var(--lh-145);
   letter-spacing: var(--ls-05);
   color: var(--white);
